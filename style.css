@@ -1,0 +1,69 @@
+*{
+	padding: 7px;
+	padding-top: 0;
+}
+body{
+	margin: 20px; 
+	background: linear-gradient(
+        to right,
+        pink 0%,
+        pink 50%,
+        cyan 50%,
+        cyan 100%
+    ); 
+}
+h1{
+	text-align: center;
+	font-size: 45px;
+	color: #000000;
+}
+.temp{
+	display: flex;
+	margin-top: 70px;
+}
+.temp h2{
+	text-align: center;
+	font-size: 30px;
+	color: #000000;
+}
+.ftoc{
+	margin-left: 15%;
+	float: left;
+	width: 30%;
+	background-color: cyan;
+	border-radius: 30px;
+}
+.temp .form-group{
+	text-align: center;
+
+}
+.temp .form-group input{
+	width: 200px;
+	height: 20px;
+	margin: 10px;
+	border-color: white;
+	padding: 7px;
+	background-color: white;
+}
+.temp button{
+	padding: none;
+	margin: 0;
+	color: #000000;
+	text-align: center;
+	height: 40px;
+	width: 100px;
+	border-radius: 20px;
+}
+.ftoc button{
+    background-color: pink;
+}
+.ctof button{
+    background-color: cyan;
+}
+
+.ctof{
+	width: 30%;
+	margin-left: 10%;
+	background-color: pink;
+	border-radius: 30px;
+}

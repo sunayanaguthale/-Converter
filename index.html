@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1"/>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        
+	</head>
+<body>
+	<section class="main">
+		<h1>Simple Temperature Converter</h1>
+		<div class="temp">
+				<div class="ftoc">
+					<h2>Fahrenheit to Celcius</h2>
+					<div class="form-group">
+						<input type="number" id="fahrenheit1" placeholder="Enter number here" class="form-control"/>
+					</div>
+					<div class="form-group">
+						<input type="text" id="celcius1" class="form-control" readonly="readonly"/>
+					</div>
+					<center><button class="btn btn-success" onclick="convertToCe();"><b>Convert</b></button></center>
+				</div>
+				<div class="ctof">
+					<h2>Celcius to Fahrenheit</h2>
+					<div class="form-group">
+						<input type="number" id="celcius2" placeholder="Enter number here" class="form-control"/>
+					</div>
+					<div class="form-group">
+						<input type="text" id="fahrenheit2" class="form-control" readonly="readonly"/>
+					</div>
+					<center><button class="btn btn-success" onclick="convertToFa();"><b>Convert</b></button></center>
+				</div>
+			</div>
+		</div>
+	</section>
+<script src="index.js"></script>
+</body>
+</html>
